@@ -43,6 +43,6 @@ public class PlayerMovementBehaviour : MonoBehaviour
 
     void MoveChar()
     {
-        _rigidbody.MovePosition(transform.position + _change * Speed * Time.fixedDeltaTime);
+        _rigidbody.MovePosition(transform.position + Speed * Time.fixedDeltaTime * _change);
     }
 }
