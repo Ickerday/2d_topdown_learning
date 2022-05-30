@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMovementBehaviour : MonoBehaviour
 {
-    [Range(0f, 10f)]
-    public float Speed = 4f;
+    [Range(0.01f, 0.2f)]
+    public float Speed = 0.1f;
 
     private Animator _animator;
     private Rigidbody2D _rigidbody;
@@ -43,6 +43,6 @@ public class PlayerMovementBehaviour : MonoBehaviour
 
     void MoveChar()
     {
-        _rigidbody.MovePosition(transform.position + Speed * Time.fixedDeltaTime * _change);
+        _rigidbody.MovePosition(transform.position + Speed * _change);
     }
 }

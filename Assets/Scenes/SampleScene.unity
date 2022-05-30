@@ -251,11 +251,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a8cfa45cda24e719e2484a9d0086a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 675d8453ed70845eea4f8f60f3d25e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1213633745}
-  smoothing: 0.32
+  smoothing: 0.0188
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3984,7 +3984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 908ccc4072b494325829c3da358bfdf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  Speed: 0.11
 --- !u!95 &1213633748
 Animator:
   serializedVersion: 4
